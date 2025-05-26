@@ -1,0 +1,61 @@
+.alinhamento{
+    display: flex;
+    gap: 7%;
+    width: 800px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.login{
+    margin-left: 10%;
+    position: relative;
+    
+}
+
+h4{
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+button{
+    font-size: 14px;
+    margin-left: 35%;
+    margin-top: 11px;
+    border: hidden;
+    border-radius: 7px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    padding: 5px;
+    
+}
+
+.enviar{
+ text-decoration: underline;
+ font-size: 14px;
+ color: rgb(114, 114, 114);
+ position: relative;
+ right: 40%;
+ bottom: 20px;
+
+}
+
+body{
+    background: radial-gradient(circle, rgb(233, 233, 233), rgb(199, 199, 199), rgb(212, 208, 208), rgb(185, 178, 178));
+}
